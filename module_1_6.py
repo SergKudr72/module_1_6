@@ -1,0 +1,16 @@
+my_dict = {'Ivan': 1987, 'Igor': 1989, 'Vera': 1993}
+print(my_dict)
+print(my_dict['Vera'])
+print(my_dict.get('Alex', 'Нет такого ключа'))
+my_dict.update({'Nina': 1999, 'Lena': 1997})
+print(my_dict)
+a = my_dict.pop('Igor')
+print(my_dict)
+print(a)
+print(my_dict)
+my_set = {8, 'boy', 1.64, 8, 1.64, 'boy', 8}
+print(my_set)
+print(my_set.add(5), my_set.add('day'))
+print(my_set)
+print(my_set.remove('boy'))
+print(my_set)
